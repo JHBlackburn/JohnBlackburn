@@ -59,11 +59,16 @@
     <Folder Include="Properties" />
     <Folder Include="src" />
     <Folder Include="src\Tables" />
+    <Folder Include="PostDeploy" />
+    <Folder Include="PostDeploy\SeedData" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="src\Tables\TechnologyTimePeriod.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="JohnBlackburn.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PostDeploy\SeedData\Seed.TechnologyTimePeriod.sql" />
   </ItemGroup>
 </Project>

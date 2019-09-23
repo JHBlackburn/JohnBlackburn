@@ -21,4 +21,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="MajorProjectName" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="4f3a2bde-df5d-4c92-afc1-83ebc055bc75" ChangeDateTime="09/23/2019 16:06:30">
+    <Property Name="ElementName" Value="[dbo].[TechnologyTimePeriod].[MajorProjectAlias]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TechnologyTimePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MajorProjectPublicDisplayName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7bdf13f3-88cf-41cf-a0e5-9762d5d51c76" ChangeDateTime="09/23/2019 16:06:42">
+    <Property Name="ElementName" Value="[dbo].[TechnologyTimePeriod].[MajorProjectName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TechnologyTimePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MajorProjectPrivateName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aaafa659-be87-4fe5-8de9-e5190afb8435" ChangeDateTime="09/23/2019 16:06:58">
+    <Property Name="ElementName" Value="[dbo].[TechnologyTimePeriod].[MajorProjectPublicDisplayName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TechnologyTimePeriod]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MajorProjectPublicName" />
+  </Operation>
 </Operations>
